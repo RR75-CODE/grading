@@ -31,13 +31,13 @@ namespace grading
         public override void DisplayInfo()
         {
             var sb = new StringBuilder();
-            sb.AppendLine($"Student ID : {StudentId}");
-            sb.AppendLine($"Name       : {Name}");
-            sb.AppendLine($"Age        : {Age}");
-            sb.AppendLine($"DOB        : {DateOfBirth:yyyy-MM-dd}");
-            sb.AppendLine($"Gender     : {Gender}");
-            sb.AppendLine($"YearReg    : {YearOfRegister}");
-            sb.AppendLine($"Z-Score    : {ZScore}");
+            sb.AppendLine($"Student ID: {StudentId}");
+            sb.AppendLine($"Name: {Name}");
+            sb.AppendLine($"Age: {Age}");
+            sb.AppendLine($"DOB: {DateOfBirth:yyyy-MM-dd}");
+            sb.AppendLine($"Gender: {Gender}");
+            sb.AppendLine($"YearReg: {YearOfRegister}");
+            sb.AppendLine($"Z-Score: {ZScore}");
             sb.AppendLine();
             sb.AppendLine("Courses:");
             foreach (var c in Courses)
@@ -50,9 +50,9 @@ namespace grading
             double irgAvg = (Courses.Count > 0) ? Math.Round(Courses.Average(c => c.IRG), 2) : 0.0;
             double rScore = CalculateRScore();
 
-            sb.AppendLine($"Average Score : {Math.Round(avg, 2)}");
-            sb.AppendLine($"GPA (0-4.0)   : {gpa}");
-            sb.AppendLine($"Avg IRG       : {irgAvg}");
+            sb.AppendLine($"Average Score: {Math.Round(avg, 2)}");
+            sb.AppendLine($"GPA (0-4.0): {gpa}");
+            sb.AppendLine($"Avg IRG: {irgAvg}");
             sb.AppendLine($"R-Score (0-20): {rScore}");
             sb.AppendLine(new string('-', 60));
 
