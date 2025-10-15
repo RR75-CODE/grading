@@ -1,0 +1,11 @@
+StudentId,CourseId,CourseName,Score,GroupId,IRG
+1001,COMP123,Programming I,89,G1,33
+1001,COMP125,Databases,76,G2,34
+1002,COMP123,Programming I,65,G1,33
+1002,COMP222,Data Structures,70,G2,34
+1003,COMP123,Programming I,95,G1,33
+1003,COMP125,Databases,91,G2,34
+1003,COMP222,Data Structures,88,G3,35
+1004,COMP333,Networking,72,G3,35
+1005,COMP125,Databases,60,G2,34
+1005,COMP444,Software Eng,65,G3,35
